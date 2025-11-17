@@ -84,15 +84,28 @@ Ou diretamente:
 make clean
 ```
 
+### Executar Testes Unitários
+```bash
+make test
+```
+
+Este comando compila e executa os testes unitários que verificam:
+- Funcionamento do inventário com arrays
+- Funcionamento do inventário com listas encadeadas
+- Algoritmo Selection Sort
+- Algoritmo de busca binária
+
 ## 📁 Estrutura do Projeto
 
 ```
 desafio_free_fire/
-├── README.md           # Documentação do projeto
-├── Makefile           # Automação de compilação
-├── inventory.h        # Definições de estruturas e funções de inventário
-├── inventory.c        # Implementação do sistema de inventário
-└── game.c             # Lógica principal do jogo
+├── README.md              # Documentação do projeto
+├── Makefile              # Automação de compilação
+├── .gitignore            # Arquivos ignorados pelo Git
+├── inventory.h           # Definições de estruturas e funções de inventário
+├── inventory.c           # Implementação do sistema de inventário
+├── game.c                # Lógica principal do jogo
+└── test_inventory.c      # Testes unitários do sistema de inventário
 ```
 
 ## 🎮 Como Jogar

@@ -6,6 +6,7 @@
 *.exe
 *.out
 free_fire_game
+test_inventory
 
 # Editor backup files
 *~
